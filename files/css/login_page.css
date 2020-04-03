@@ -1,0 +1,62 @@
+
+body {
+    height: 500px;
+    width: 437px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 100px;
+    width: inherit;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.top > div {
+    padding-bottom: 10px;
+}
+
+.bottom {
+    height: 400px;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomLeft {
+    width: 200px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-right: white dotted;
+    padding: 5px;
+}
+
+.bottomLeft > p {
+    padding-bottom: 10px;
+}
+
+#randomButton {
+    background-color: lightyellow;
+    color: orange;  
+}
+
+.bottomRight {
+    width: 237px;
+    height: 400px;
+    background-color: honeydew;
+    padding: 5px;
+}
+
+#joinGameComp {
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: white dotted;
+}
+
+#joinRandomComp {
+    text-align: center;
+    margin-top: 50px;
+}
+
